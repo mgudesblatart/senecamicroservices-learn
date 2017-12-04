@@ -1,0 +1,16 @@
+{
+  "name": "emailer",
+  "version": "1.0.0",
+  "description": "Emailing sub-system",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Murray Gudesblat",
+  "license": "ISC",
+  "dependencies": {
+    "mailgun-js": "^0.13.1",
+    "nodemailer": "^4.4.0",
+    "seneca": "^3.4.3"
+  }
+}
